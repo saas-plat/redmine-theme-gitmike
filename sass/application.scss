@@ -59,19 +59,18 @@ only screen and (min-device-pixel-ratio: 2) {
 
 #top-menu {
   font: $base-font;
-  padding: 10px 10px 2px 20px;
+  padding: 12px 10px 12px 20px;
   @include github-header();
 
   #loggedas {
     color: #222;
   }
   a {
-    color: $text-color;
+    color: rgba(255,255,255,0.75);
     font-weight: bold;
+    font-size: 14px;
     padding: 5px;
-    margin-right: 0;
-    transition: color .15s ease-in;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    margin-right: 2;
 
     &:hover {
       color: $link-color;
